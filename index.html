@@ -42,8 +42,23 @@
   </header>
 
   <main>
-    <p class="fs-5">This is a quick & dirty Bootstrap 5 static site hosted on S3 with SSL and CDN services provided by Cloudfront, that will point to my other projects.</p>
+    <p class="fs-5">This is a Bootstrap 5 static site with the following features that will highlight my other projects: </p>
     
+    <ul class="fs-5">
+      <li>
+        CI/CD build pipeline via AWS CodePipeline (auto deploy to S3 on Github commit)
+      </li>
+      <li>
+        static files hosted on S3, but reachable only by CloudFront
+      </li>
+      <li>
+        SSL and CDN services provided by CloudFront
+      </li>
+      <li>
+        domain via Route53
+      </li>
+    </ul>
+    <hr class="col-3 col-md-2 mb-5 mt-5">
     <ul class="list-unstyled fs-2">
       <li class="d-flex align-items-baseline"><a href="http://wordpress-ec2.johnvold.com" target=_blank>Wordpress hosted on EC2</a><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-caret-right-fill mx-2" viewBox="0 0 16 16">
         <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
